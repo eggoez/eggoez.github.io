@@ -1,0 +1,83 @@
+@import url("//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+/* Be screen reader friendly */
+.icon-label {
+    font-size: 0;
+}
+
+.qr {
+	float: left; 
+	border: solid 2px #fafafa;
+    height: 62;
+    width: 62;
+	}
+.goez,.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
+    background-color:#006687;
+}
+
+.navbar.navbar-default {}
+.navbar > .container .navbar-brand {
+  color: #008cba;
+  font-size: 19px;
+  margin: 0px 0;
+
+}
+
+.gfg-root .gfg-entry .gf-result {
+	position : relative;
+	background-color:none;
+	}
+
+
+.gfg-list {
+	position : relative;
+	overflow : hidden;
+	text-align : left; 
+	display:none !important;
+	}
+
+.gfg-root .gfg-entry .gf-result .gf-title {
+	display:block;
+	font-weight:normal;
+	line-height: 1.2em;
+	overflow : hidden;
+	white-space : nowrap;
+	text-overflow : ellipsis;
+	-o-text-overflow : ellipsis;
+	}
+
+.gfg-root .gfg-entry .gf-result .gf-snippet {
+	line-height : 1.3em;
+	}
+	
+.clearFloat {
+	clear : both;
+	}
+	
+#feedGadget { 
+	width: auto;
+
+	}
+	
+.gfg-horizontal-root .gfg-entry .gf-result .gf-snippet,
+.gfg-horizontal-root .gfg-entry .gf-result .gf-author {
+  display : none;
+}
+
+.gfg-horizontal-root .gfg-entry  .gf-result .gf-title {
+  color: #0000cc;
+  float : left;
+}
+
+.gfg-horizontal-root .gfg-entry .gf-result .gf-spacer {
+  float : left;
+}
+
+.gfg-horizontal-root .gfg-entry .gf-result .gf-spacer,.gfg-horizontal-root .gfg-entry .gf-result .gf-relativePublishedDate {
+  display : block;
+  color: #AAAAAA;
+}
+.liseguz, p .liseguz {font-size: 9px;}
