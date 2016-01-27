@@ -1,1 +1,41 @@
- <meta http-equiv="refresh" content="0;url=http://goez.my.id">
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<title>HTTP [OK]</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="//goez.my.id/favicon.ico" />
+<meta name="robots" content="nocache" />
+<meta name="author" content="@eggpez />
+<meta http-equiv="refresh" content="5;url=http://goez.my.id/?ref=eg">
+</head>
+<body>
+<style>
+* {
+    padding: 0;
+    margin: 0;
+  }
+.power {
+    max-width: 100%;
+    max-height: 100%;
+  }
+.center {
+    display: block;
+    margin: auto;
+  }
+body {
+  background-color:#e7e7e7;
+} 
+</style>
+<img class="center power" src="//eg.goez.my.id/asset/imgs/ipower.png" alt="iPowered by goez">
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" language="JavaScript">
+  function set_body_height() {
+    $('body').height($(window).height());
+  }
+  $(document).ready(function() {
+    $(window).bind('resize', set_body_height);
+    set_body_height();
+  });
+</script>
+</body>
+</html>
