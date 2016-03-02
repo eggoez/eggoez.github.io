@@ -1,0 +1,1 @@
+(c) dora-word.com
