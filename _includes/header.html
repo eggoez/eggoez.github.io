@@ -1,18 +1,4 @@
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-			<div class="container">
-				<div class="navbar-header">
-				      <a class="navbar-brand ge site-title" href="{{ site.baseurl }}/">
-						<img alt="{{ site.title }}" src="//eg.goez.my.id/asset/imgs/goez-eggo18n.png">
-						</a>
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-				</div>
-				
-      <div class="trigger">
+  <div class="trigger">
         {% for my_page in site.pages %}
           {% if my_page.title %}
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
