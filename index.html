@@ -7,15 +7,15 @@ layout: default
 
   <div class="post-list">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta"><i class="fa fa-calendar faa-wrench"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
+      <div>
+        <span class="post-meta"><i class="fa fa-calendar faa-horizontal animated"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-      </li>
+      </div>
     {% endfor %}
   </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<p class="rss-subscribe pull-right"><a href="{{ "/feed.xml" | prepend: site.baseurl }}" title="via RSS"><i class="fa fa-rss faa-wrench animated"></a></a></p>
 
