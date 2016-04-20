@@ -13,7 +13,12 @@
 				</div>
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav">
-							<li><a href="/">Beranda</a></li>
+							{% if page.url == '' %}
+							<li class="active">
+							 	{% else %}
+							 <li>
+							 {% endif %}
+								<a href="/">Beranda</a></li>
 							<li><a href="http://eggoez.com">Blog</a></li>
 							<li><a href="http://eggoez.com/flatpress">FlatPress</a></li>
 							<li><a href="/notes">Note's</a></li>
