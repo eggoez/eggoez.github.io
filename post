@@ -1,0 +1,27 @@
+#!/bin/bash
+echo -e "\e[31mAdded post test\e[0m"
+budal="y";
+wurung="t";
+read -p "Post sekarang? (y/t)? : " pie
+if [ $pie == $wurung ]; then
+echo ""
+else
+echo -n "Judul Post"
+read judul
+echo -n "Kategori"
+read kategori
+echo ""
+echo -e "\033[30;43;4mTekan sembarang untuk memulai\033[0m"
+cd _posts
+touch "`date`"$judul.md
+echo --- >> "`date`"$judul.md
+echo layout: post >> "`date`"$judul.md
+echo title $judul >> "`date`"$judul.md
+echo date `date` >> "`date`"$judul.md
+echo categories $kategori >> "`date`"$judul.md
+echo --- >> "`date`"$judul.md
+echo -e "\e[32mFile post di buat\e[0m"
+nano "`date`"$judul.md
+fi
+echo -e "\e[45mbagus18\e[0m" 
+
