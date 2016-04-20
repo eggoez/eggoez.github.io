@@ -66,4 +66,3 @@ permalink: /about/
 		<p>Atau kontak via email saya di mari</p>
 		<p><i><code>eg[at]goez.my.id</code></i></p>
 </div>
-</div>
