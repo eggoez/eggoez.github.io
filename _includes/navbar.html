@@ -13,7 +13,7 @@
 				</div>
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav">
-							<li class="active"><a href="/">Beranda</a></li>
+							<li><a href="/">Beranda</a></li>
 							<li><a href="http://eggoez.com">Blog</a></li>
 							<li><a href="http://eggoez.com/flatpress">FlatPress</a></li>
 							<li><a href="/notes">Note's</a></li>
@@ -61,7 +61,12 @@
 										<li><a href="http://eggoez.com/download/tcl">TCL</a></li>
 									</ul>
 							</li>
-							<li><a href="/about">About</a></li>
+							 {% if page.url == '/about.md' %}
+							 <li class="active">
+							 	{% else %}
+							 <li></li>
+							 {% endif %}
+							<a href="/about">About</a></li>
 									</ul>
 					</div>
 			</div>
