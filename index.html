@@ -8,11 +8,11 @@ layout: default
   <div class="post-list">
     {% for post in site.posts %}
       <div>
-        <span class="post-meta"><i class="fa fa-calendar faa-horizontal animated"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta"><i class="fa fa-calendar"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        <h5>
+        <i class="fa fa-terminal" aria-hidden="true"></i>  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h5>
       </div>
     {% endfor %}
   </div>
