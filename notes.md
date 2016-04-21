@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Notes
 ---
 <div class="page-header">
   <h2>Tulisan</h2>
