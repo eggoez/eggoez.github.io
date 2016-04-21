@@ -30,6 +30,10 @@
 										<li><a href="/tools/cssc">CSS Compress</a></li>
 										<li><a href="/tools/jsc">JS Compress</a></li>
 										<li><a href="/tools/meme">Meme Maker</a></li>
+										{% if page.url == '/tools/base64/' %}
+										<li class="active">
+										{% else %}
+										<li>{% endif %}<a href="/tools/base64">Images b64</a></li>
 											<li class="dropdown dropdown-submenu"><a href="/teks/" class="dropdown-toggle" data-toggle="dropdown">Text Converter</a>
 												<ul class="dropdown-menu">
 													<li><a href="/tools/teks/attl.shtml">Attl Text</a></li>
