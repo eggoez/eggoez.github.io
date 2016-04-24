@@ -1,0 +1,17 @@
+---
+layout: page
+title: CSS Compressor
+permalink: /tools/jsc/
+---
+<div class="container" style="padding-top:35px">
+					<div class="page-header">
+					<h1>JavaScript Compress</h1></div>
+						<div class="content text-center">
+						<textarea class="form-control" style="min-height:350px" id="jssrc" placeholder="Javascript panjang di sini.."></textarea>
+							<input type="submit" id="minimize" class="btn btn-default" value="Compress!"> 
+							<input id="o_base62" name="o_base62" type="checkbox"> Base62 encode
+							<input id="o_svars" name="o_svars" type="checkbox"> Shrink variables
+						<textarea class="form-control" style="display:none;min-height:300px" id="jsdst" onclick="this.select()"></textarea>
+							<div id="stat" class="stat" style="display:none">Sebelum: <b id="slength">0</b> Sesudah: <b id="dlength">0</b> Rasio Kompress: <b id="result">0</b>%.							</div>
+						</div>
+				</div>
