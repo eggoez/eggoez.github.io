@@ -1,5 +1,4 @@
 ---
-published: true
 layout: post
 title:  "Tesssss!"
 date:   2016-04-22 17:18:35 -0500
