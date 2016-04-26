@@ -2,7 +2,7 @@
 layout: post
 title:  "Bash eggoez"
 date:   2015-01-27 09:21:52 -0501
-categories: bash, eggoez, eggdrop
+categories: bash eggoez eggdrop
 ---
 <pre>#!/bin/bash
 echo -e "\033[30;43m+--------------------------------------------------------------------+\033[0m"
