@@ -4,7 +4,7 @@ title:  "Bash eggoez"
 date:   2015-01-27 09:21:52 -0501
 categories: bash, eggoez, eggdrop
 ---
-<code>#!/bin/bash
+<pre>#!/bin/bash
 echo -e "\033[30;43m+--------------------------------------------------------------------+\033[0m"
 echo -e "\033[37;41;4mInstallasi eggdrop goez otomatis berada pada $HOME/.eggoez\033[0m"
 echo -e "\033[37;41;4mPastikan tidak ada folder .eggoez pada $HOME ini  \033[0m"
@@ -59,4 +59,4 @@ echo "irc.allnetwork.org@ Indonesia IRC"
 echo "Terima kasih telah menggunakan eggoez.tar.gz"
 fi
 echo -e "\033[30;43m+--------------------(egg drop goez )----------------------+\033[0m" 
-</code>
+</pre>
