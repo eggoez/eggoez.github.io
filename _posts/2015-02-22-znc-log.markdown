@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "ZNC Logs"
+date:   2015-02-22  05:02:49
+categories:bash znc
+---
+<pre>
+#!/bin/bash
+cd .znc
+cd moddata
+cd adminlog
+rm -rf *
+cd ..
+cd log
+</pre>
