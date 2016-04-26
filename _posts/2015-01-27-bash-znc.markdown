@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Bash eggoez"
+date:   2015-01-27 09:21:52 -0501
+categories: bash znc
+---
+<pre>
+#!/bin/bash
+touch ~/.oidentd.conf
+chmod 644 ~/.oidentd.conf
+chmod 711 ~
+touch ~/.ident
+chmod 644 ~/.ident
+wget http://znc.in/releases/znc-1.4.tar.gz
+tar zxf znc-1.4.tar.gz
+cd znc-1.4
+./configure --prefix=$HOME --enable-extra
+make
+make install
+./znc -c
+</pre>
