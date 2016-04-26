@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Xiaomi Smartphone Device Code"
-date:  2015-10-20 05:49:05
-categories:xiaomi
+title: "Xiaomi Smartphone Device Code"
+date: 2015-10-20 05:49:05
+categories: xiaomi
 ---
 List kode smarphone device code merek Xiaomi..
 Cek juga yang diajukan untuk masuk ke indonesia di ePostel <a href="https://sertifikasi.postel.go.id/index.php?0601">sertifikasi.postel.go.id/index.php?0601</a>
