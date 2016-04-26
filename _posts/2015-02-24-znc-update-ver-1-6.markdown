@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 title: "ZNC Update ver 1.6"
 date: 2015-02-24 10:34:20
 categories: znc bash
