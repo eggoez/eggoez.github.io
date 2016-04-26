@@ -11,9 +11,9 @@ title: Notes
       <div>
         <span class="post-meta"><i class="fa fa-calendar"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h3>
+        <p>
         <i class="fa fa-terminal" aria-hidden="true"></i>  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h3>
+        </p>
       </div>
     {% endfor %}
   </div>
