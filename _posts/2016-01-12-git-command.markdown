@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Git Command"
-date:   2016-01-12 04:29:40
-categories:git
+date: 2016-01-12 04:29:40
+categories: git
 ---
 Setup
 <pre>
