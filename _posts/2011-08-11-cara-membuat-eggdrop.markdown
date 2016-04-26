@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Cara Membuat Bot Eggdrop"
-date:   2011-08-11 00:39:18
-categories:eggdrop
+title: "Cara Membuat Bot Eggdrop"
+date: 2011-08-11 00:39:18
+categories: eggdrop
 ---
 Eggdrop adalah IRC bot yang paling populer. Baca <a href="http://www.egghelp.org/whatis.htm">di sini</a> untuk lebih lanjut
 deskripsi.
