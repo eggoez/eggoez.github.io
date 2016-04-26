@@ -1,8 +1,4 @@
 ---
-published: false
----
-
----
 layout: post
 title:  "Bash effoez"
 date:   2015-01-27 09:21:52 -0501
