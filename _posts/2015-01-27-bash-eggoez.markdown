@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bash effoez"
+title:  "Bash eggoez"
 date:   2015-01-27 09:21:52 -0501
 categories: bash, eggoez, eggdrop
 ---
