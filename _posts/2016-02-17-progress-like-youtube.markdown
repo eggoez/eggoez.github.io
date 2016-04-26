@@ -5,9 +5,9 @@ date:   2016-02-17 03:24:41
 categories: bash eggoez eggdrop
 ---
 added this js before your
-<pre>
+<code>
 </head>
-</pre>
+</code>
 <pre>
 <script>
 
