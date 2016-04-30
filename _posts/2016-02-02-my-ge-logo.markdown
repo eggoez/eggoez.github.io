@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Base64 My (ge) Logo "
-date:   2016-02-02 06:10:52
+title:  "Base64 My (ge) Logo"
+date:   2016-02-02 06:10:52 -0501
 categories: bash
 ---
 String

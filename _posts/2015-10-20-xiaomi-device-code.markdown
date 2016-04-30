@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Xiaomi Smartphone Device Code"
-date: 2015-10-20 05:49:05
+date: 2015-10-20 05:49:05 -0501
 categories: xiaomi
 ---
 List kode smarphone device code merek Xiaomi..

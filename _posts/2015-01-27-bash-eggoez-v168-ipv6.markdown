@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bash eggoez.v-6.18 (IPv6) "
-date:   2015-01-27 09:21:31
+date:   2015-01-27 09:21:31 -0501
 categories: bash eggoez eggdrop
 ---
 <pre>

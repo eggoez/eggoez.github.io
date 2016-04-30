@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bash ZNC"
-date:   2015-01-27 09:19:23
+date:   2015-01-27 09:19:23 -0501
 categories: bash znc
 ---
 <pre>
