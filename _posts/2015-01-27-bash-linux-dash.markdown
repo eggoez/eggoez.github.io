@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bash Linux Dash"
-date:   2015-01-27 09:20:16
+date:   2015-01-27 09:20:16 -0501
 categories: bash
 ---
 <pre>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "WP vs Nginx "
-date:   2015-01-01 11:21:10
+date:   2015-01-01 11:21:10 -0501
 categories: php
 ---
 Agar bisa live download themes & plugin & jetcpack bekerja

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Progress Like yutube? "
-date:   2016-02-17 03:24:41 
+title:  "Progress Like yutube?"
+date:   2016-02-17 03:24:41 -0501
 categories: bash eggoez eggdrop
 ---
 added this js before your
