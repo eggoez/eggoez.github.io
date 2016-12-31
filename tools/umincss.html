@@ -4,11 +4,18 @@ title: CSS Beautify
 permalink: /tools/umincss/
 ---
 <div class="content text-center">
-	<p><textarea class="form-control" style="min-height:350px" id="csssrc" placeholder="Masukkan CSS di sini.."></textarea></p>
-	<p><input type="submit" id="minimize" class="btn btn-default" value="Compress!"> <input id="o_colors" checked="checked" name="o_colors" type="checkbox">
-		<em> Compress colours </em><input id="o_fweight" checked="checked" name="o_fweight" type="checkbox"><em> Compress font-weight</em></p>
-	<p><textarea class="form-control" style="display:none;min-height:300px" id="cssdst" onclick="this.select()"></textarea></p>
-		<div id="stat" class="stat" style="display:none">Sebelum: <b id="slength">0</b> Sesudah:
-	<b id="dlength">0</b> Rasio Kompress: <b id="result">0</b><em>%</em>.
-		</div>
+	<p><textarea class="form-control" style="min-height:350px" placeholder="Masukkan CSS min di sini.." id="raw" autofocus="autofocus" spellcheck="false" onChange='format()' onKeyDown='format()'></textarea></p>
+	<p><em>Spasi/Tab</em><input checked type="radio" name="indent" id="fourspaces" value="fourspaces" onChange='format()'> 4 spasi
+	<input type="radio" name="indent" id="twospaces" value="twospaces" onChange='format()'> 2 spasi
+	<input type="radio" name="indent" id="tab" value="tab" onChange='format()'> tab
+	</p>
+	<p>Posisi <em>{</em> 
+	<input checked type="radio" name="openbrace" id="openbrace-end-of-line" onChange='format()'> 1 baris
+	<input type="radio" name="openbrace" id="openbrace-separate-line" onChange='format()'> baris baru
+	</p>
+	<p><input checked type="checkbox" name="autosemicolon" id="autosemicolon" onChange='format()'> <em>;</em>(auto)</p>
+	
+	<p><textarea class="form-control" style="display:none;min-height:300px" id="beautified" onclick="this.select()"></textarea></p>
 </div>
+<script src="//eg.goez.my.id/asset/js/csbeau1.js"></script>
+<script src="//eg.goez.my.id/asset/js/csbeau2.js"></script>
