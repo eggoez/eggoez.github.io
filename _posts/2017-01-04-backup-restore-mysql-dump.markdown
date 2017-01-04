@@ -1,5 +1,8 @@
 ---
-published: false
+layout: post
+title: "Backup & Restore MySQL Dump"
+date: 2017-01-04 15:17:18 -0000
+categories: eggdrop
 ---
 Hanya untuk catatan
 
