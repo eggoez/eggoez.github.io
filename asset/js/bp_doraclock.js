@@ -20,12 +20,12 @@ else if (navigator.userAgent && navigator.userAgent.indexOf("MSIE")>=0
 }
 if ( MM_FlashCanPlay ) {
 		document.write('<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"');
-	document.write('  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" ');
+	document.write('  codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" ');
 	document.write(' ID="dm08blogparts" WIDTH="160" HEIGHT="180" ALIGN="">');
-	document.write(' <PARAM NAME=movie VALUE="//eggoez.github.com/asset/swf/bp_doraclock.swf"><PARAM NAME=quality VALUE=high><PARAM NAME=wmode VALUE=transparent>'); 
-	document.write(' <EMBED src="//eggoez.github.com/asset/swf/bp_doraclock.swf" quality=high wmode=transparent');
+	document.write(' <PARAM NAME=movie VALUE="//goez.my.id/asset/swf/bp_doraclock.swf"><PARAM NAME=quality VALUE=high><PARAM NAME=wmode VALUE=transparent>'); 
+	document.write(' <EMBED src="//goez.my.id/asset/swf/bp_doraclock.swf" quality=high wmode=transparent');
 	document.write(' swLiveConnect=FALSE WIDTH="160" HEIGHT="180" NAME="dm08blogparts" ALIGN=""');
-	document.write(' TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer">');
+	document.write(' TYPE="application/x-shockwave-flash" PLUGINSPAGE="https://www.macromedia.com/go/getflashplayer">');
 	document.write(' </EMBED>');
 	document.write(' </OBJECT>');
 }
