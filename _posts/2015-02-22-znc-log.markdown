@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "ZNC Logs"
-date:   2015-02-22 05:02:49 -0501
-categories:bash znc
+title: "ZNC Logs"
+date: 2015-02-22 19:19:23 -0501
+categories: znc
 ---
 <pre>
 #!/bin/bash
