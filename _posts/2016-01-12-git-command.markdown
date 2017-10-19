@@ -43,3 +43,31 @@ Change
 <pre>
 git remote set-url origin git://new.url.here
 </pre>
+<<<<<<< HEAD
+=======
+Ganti Author
+<pre>
+git clone --bare http://.git
+cd repo.git
+<code>
+#!/bin/sh
+git filter-branch --env-filter '
+OLD_EMAIL="your-old-email@example.com"
+CORRECT_NAME="Your Correct Name"
+CORRECT_EMAIL="your-correct-email@example.com"
+if [ "$GIT_COMMITTER_EMAIL" = "$OLD_EMAIL" ]
+then
+    export GIT_COMMITTER_NAME="$CORRECT_NAME"
+    export GIT_COMMITTER_EMAIL="$CORRECT_EMAIL"
+fi
+if [ "$GIT_AUTHOR_EMAIL" = "$OLD_EMAIL" ]
+then
+    export GIT_AUTHOR_NAME="$CORRECT_NAME"
+    export GIT_AUTHOR_EMAIL="$CORRECT_EMAIL"
+fi
+' --tag-name-filter cat -- --branches --tags
+</code>
+git remote add origin https://username:password@gitdomain/.git
+git push --force --tags origin 'refs/heads/*'
+<pre>
+>>>>>>> f5a9debdd007083aca97f197ee487fd2519992e1
