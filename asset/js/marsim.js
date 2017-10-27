@@ -4,7 +4,7 @@ pS=["Legi","Pahing","Pon","Wage","Kliwon"];
 sT=["font-size:","<tr>","</tr>"];
 
 BdY="<thead><tr>"
-BdY+="<style>.pagination,.previous,.next{cursor:pointer;}#dtl {font-size:35px;}@media (max-width: 420px) {#dtl {font-size:13px;}.copyleft,#ilang{display:none;}}</style>";
+BdY+="<style>.pagination,.previous,.next{cursor:pointer;}#dtl {font-size:28px;}@media (max-width: 420px) {#dtl {font-size:13px;}.copyleft,#ilang{display:none;}}</style>";
 //BdY+=sT[1]+""+sT[2];
 BdY+=sT[1]+"<th class='danger'>"+dN[0]+"</th><th>"+dN[1]+"</th><th>"+dN[2]+"</th><th>"+dN[3]+"</th><th>"+dN[4]+"</th><th class='success'>"+dN[5]+"</th><th>"+dN[6]+"</th>"+sT[2]+"</tr></thead><tbody><tr>";
 for(iC=0;iC<=41;iC++){if(iC==5|iC==12|iC==19|iC==26|iC==33|iC==40){cls="info";ftr="";etr="";}else
