@@ -1,4 +1,4 @@
-dN=["Minggu","Senen","Seloso","Rebo","Kemis","Jemuah","Sebtu"];
+dN=["Akad","Senen","Seloso","Rebo","Kemis","Jemuah","Sebtu"];
 mN=["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","Nopember","Desember"];
 pS=["Legi","Pahing","Pon","Wage","Kliwon"];
 sT=["font-size:","<tr>","</tr>"];
