@@ -29,5 +29,5 @@ t1=new Date(100,0,1);t2=new Date(yR,mT,aD);
 sb=(((Date.parse(t2)-Date.parse(t1))/(24*60*60*1000))%(5));
 document.getElementById("iD"+bD).innerHTML="<font style='"+sT[0]+"18pt;'>"+aD+"</font><br/>"+pS[sb];
 if(aD==t0.getDate()&mT==t0.getMonth()&yR==t0.getFullYear()){document.getElementById("iD"+bD).style.backgroundColor="#ffff66";};
-bD=(bD+1);}dtl.innerHTML="<b>"+mN[mT]+" "+yR+"</b>";
+bD=(bD+1);}dtl.innerHTML=" <b>"+mN[mT]+" "+yR+"</b>";
 for(vD=1;bD<=41;vD++){document.getElementById("iD"+bD).innerHTML="<font style='"+sT[0]+"12pt;color:gray;'>"+vD+"</font>";bD+=1;};};
