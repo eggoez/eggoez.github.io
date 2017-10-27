@@ -11,7 +11,7 @@ for(iC=0;iC<=41;iC++){if(iC==5|iC==12|iC==19|iC==26|iC==33|iC==40){cls="info";ft
 if(iC==6|iC==13|iC==20|iC==27|iC==34|iC==41){cls="";ftr="";etr=sT[2];}else
 if(iC==0|iC==7|iC==14|iC==21|iC==28|iC==35){cls="warning";ftr=sT[1];etr="";}else{cls="tgl";ftr="";etr="";};
 BdY+=ftr+"<td class='"+cls+"' id='iD"+iC+"'></td>"+etr;};
-document.write(BdY+"</table></body>");chgMth(2,0);
+document.write(BdY+"</table>");chgMth(2,0);
 //window.resizeTo(448,358);
 //window.resizeTo(448+(448-document.body.offsetWidth),358+(358-document.body.offsetHeight));
 //window.moveTo((screen.width/2)-(448/2),(screen.height/2)-(358/2));
