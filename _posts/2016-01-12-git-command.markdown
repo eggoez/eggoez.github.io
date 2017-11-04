@@ -43,8 +43,6 @@ Change
 <pre>
 git remote set-url origin git://new.url.here
 </pre>
-<<<<<<< HEAD
-=======
 Ganti Author
 <pre>
 git clone --bare http://.git
@@ -70,4 +68,3 @@ fi
 git remote add origin https://username:password@gitdomain/.git
 git push --force --tags origin 'refs/heads/*'
 <pre>
->>>>>>> f5a9debdd007083aca97f197ee487fd2519992e1
