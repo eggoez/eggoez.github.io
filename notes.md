@@ -9,7 +9,7 @@ title: Notes
   <div class="post-list">
     {% for post in site.posts %}
       <div>
-        <span class="post-meta"><i class="fa fa-calendar"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta"><i class="fa fa-calendar"></i> {{ post.date | date: "%-d %b %y" }}</span>
 
         <p>
         <i class="fa fa-terminal" aria-hidden="true"></i>  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
