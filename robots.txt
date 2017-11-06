@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /*.jpg
+Disallow: /*.jpeg
+Disallow: /*.png
+Allow: *
+
+Sitemap: https://goez.my.id/sitemap.xml
+Sitemap: https://goez.my.id/blog/sitemap.xml
