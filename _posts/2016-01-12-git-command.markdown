@@ -47,7 +47,7 @@ Ganti Author
 {% highlight shell %}
 git clone --bare http://.git
 cd repo.git
-<code>
+
 #!/bin/sh
 git filter-branch --env-filter '
 OLD_EMAIL="your-old-email@example.com"
@@ -64,7 +64,7 @@ then
     export GIT_AUTHOR_EMAIL="$CORRECT_EMAIL"
 fi
 ' --tag-name-filter cat -- --branches --tags
-</code>
+
 git remote add origin https://username:password@gitdomain/.git
 git push --force --tags origin 'refs/heads/*'
-{% highlight shell %}
+{% endhighlight %}
