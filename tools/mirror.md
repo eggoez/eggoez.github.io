@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: tools
 title: About
 permalink: /tools/mirror/
 ---
