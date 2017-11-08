@@ -10,7 +10,6 @@ added this js before your
 </code>
 {% highlight javascript %}
 <script>
-
 $(function() {
 $("body").append($("<div></div>").attr("id", "progress"));
 $("#progress").width((50 + Math.random() * 30) + "%");
