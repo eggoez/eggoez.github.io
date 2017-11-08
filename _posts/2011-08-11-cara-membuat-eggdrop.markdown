@@ -45,29 +45,30 @@ F.) Mungkin nanti versi eggdrop akan berisi SSL dan kita tidak perlu melakukan l
 G.) eggdrop.conf file yang dibuat untuk bot setelah menambal dengan SSL adalah sama dengan tanpa patch.
  
 masukkan cmds ini:
-<pre>wget ftp://ftp.eggheads.org/pub/eggdrop/GNU/1.6/eggdrop1.6.19.tar.gz
+{% highlight shell %}
+wget ftp://ftp.eggheads.org/pub/eggdrop/GNU/1.6/eggdrop1.6.19.tar.gz
 tar zxvf eggdrop1.6.19.tar.gz
-cd /home/user/eggdrop1.6.19</pre>
+cd /home/user/eggdrop1.6.19{% endhighlight %}
 * Catatan: / user / akan diganti dengan nama akun Anda sendiri.
  
 Langkah SSL:
-<pre>wget http://www.egghelp.org/files/patches/eggdrop-1.6.19-ssl_and_md5_and_thread-durex.patch.gz
-gzip -d eggdrop-1.6.19-ssl_and_md5_and_thread-durex.patch.gz</pre>
+{% highlight shell %}wget http://www.egghelp.org/files/patches/eggdrop-1.6.19-ssl_and_md5_and_thread-durex.patch.gz
+gzip -d eggdrop-1.6.19-ssl_and_md5_and_thread-durex.patch.gz{% endhighlight %}
 [i](ini akan unzip dan menghapus file .gz asli)[/i]
-<pre>patch -p1 <eggdrop-1.6.19-ssl_and_md5_and_thread-durex.patch  </pre>
+{% highlight shell %}patch -p1 <eggdrop-1.6.19-ssl_and_md5_and_thread-durex.patch  {% endhighlight %}
  
 Jika Anda tidak menerima cowok gagal kesalahan saya telah membaca untuk melakukan hal ini sebagai gantinya:
 patch -p0 <eggdrop-1.6.19-ssl_and_md5_and_thread-durex.patch 
 Langkah END SSL. Lanjutkan dengan cmds ini:
  
-<pre>./configure
+{% highlight shell %}./configure
 make config
-make</pre>
+make{% endhighlight %}
 * Catatan: Jika Anda akan menginstal lebih dari satu bot:
 A. Anda tidak perlu mengulangi langkah-langkah di atas, hanya cd ~ / eggdrop1.6.19 & langkah-langkah di bawah ini agar setiap bot berada dalam direktori yang berbeda.
 B. Perubahan pelabuhan 'mendengarkan 33.968 bots' ke port yang berbeda untuk setiap bot. make install DEST = ~ / botsname (mengganti `botsname 'dengan nama bot Anda)
-<pre>cd /home/user/botsname
-pico eggdrop.conf</pre>
+{% highlight shell %}cd /home/user/botsname
+pico eggdrop.conf{% endhighlight %}
 Atau saya pikir cara termudah untuk pemula adalah untuk men-download file tersebut ke komputer anda, membuat salinan untuk kembali hanya dalam kasus, membukanya dengan WordPad, baca. Ini akan memandu Anda langkah demi langkah. Ada beberapa baris 'trik' di conf untuk Anda untuk menghapus atau bot Anda tidak akan startup. Hal ini untuk memastikan Anda membaca dan diedit file yang bot Anda dengan benar sebelum membuat kekacauan pada beberapa jaringan :). Anda tidak yakin tentang sesuatu dalam file conf bot Anda, pergi SINI untuk menemukan out.
  
 <u>CATATAN:</u>
@@ -102,8 +103,8 @@ Jangan gunakan vhost yang sama yang Anda gunakan sudah pada account ini karena b
 
 Ubah nama eggdrop.conf ke: yourbotsname.conf Upload itu ke direktori bot Anda. (Anda memerlukan program FTP untuk ini,
 tidak Program SSH) Jika Anda telah menambahkan script ekstra / tcl untuk bot, meng-upload ke jalan yang benar. Lalu masukkan cmds ini:
-<pre>cd /home/user/botsname
-./eggdrop -m yourbotsname.conf</pre>
+{% highlight shell %}cd /home/user/botsname
+./eggdrop -m yourbotsname.conf {% endhighlight %}
 Ini akan memulai bot Anda untuk pertama kalinya jika semua itu benar. Anda akan diberi balasan di jendela shell Anda. Jika bot Anda tidak akan mulai lebih dari mungkin ada sesuatu yang salah dalam file conf bot. Di masa depan untuk memulai penggunaan bot hanya: yourbotsname.conf ./eggdrop
  
 <b>MEMPERKENALKAN DIRI:</b>
@@ -166,8 +167,8 @@ Anda akan berterima kasih untuk cmd ini! Catatan itu tidak: berhenti yang akan b
 <u>BERKOMUNIKASI DENGAN BOT VIA SSH:</u>
 
 Saat Anda terhubung ke shell Anda melalui SSH Anda dapat berkomunikasi dengan bot Anda. Cara termudah adalah dengan memberikan server Anda nama singkat dan sederhana tipe:
-<pre>su
-pico / etc / hosts</pre>
+{% highlight shell %}su
+pico / etc / hosts{% endhighlight %}
 Di atas semua itu akan serupa dengan:
 [quote]127.0.0.1 localhost[/quote]
 Di atas itu ketik IP server Anda dan nama yang sederhana, misalnya:
@@ -198,8 +199,8 @@ Sekarang harus menjawab:
 Yang berarti akan memeriksa setiap 10 menit jika bot adalah berjalan, jika tidak maka akan mulai untuk Anda.
  
 Pada server yang berbeda saya punya itu tidak berhasil. Aku harus melakukan ini:
-<pre>cd /home/user/yourbotsname/scripts/ 
-./autobotchk yourbotsname.conf</pre>
+{% highlight shell %}cd /home/user/yourbotsname/scripts/ 
+./autobotchk yourbotsname.conf{% endhighlight %}
 Kemudian lakukan lagi untuk melihatnya terdaftar: <b>crontab -l </b>  
 Jika Anda tidak ingin mengirim e-mail setiap kali bot Anda adalah off line, tambahkan
 '> / Dev / null 2> & 1' bagian dari kode jika tidak ada sudah: <b>crontab -e </b>
