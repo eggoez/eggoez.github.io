@@ -5,46 +5,46 @@ date: 2016-01-12 04:29:40 -0501
 categories: git
 ---
 Setup
-<pre>
+{% highlight shell %}
 git config --global user.name "eggoez"
 git config --global user.email "@gmail.com
-</pre>
+{% endhighlight %}
 New
-<pre>
+{% highlight shell %}
 mkdir /path/to/your/project
 cd /path/to/your/project
 git init
 git remote add origin https://*.git
-</pre>
+{% endhighlight %}
 New Files
-<pre>
+{% highlight shell %}
 echo "Baguz Ach" >> contributors.txt
 git add contributors.txt
 git commit -m 'Initial commit with contributors'
 git push -u origin master
-</pre>
+{% endhighlight %}
 Existing
-<pre>
+{% highlight shell %}
 cd /path/to/my/repo
 git remote add origin https://*.git
 git push -u origin --all # pushes up the repo and its refs for the first time
 git push -u origin --tags # pushes up any tags
-</pre>
+{% endhighlight %}
 Normal
-<pre>
+{% highlight shell %}
 git init
 git add *
 git commit -m "what the commit"
 git remote add origin http://*.git
 git pull origin master
 git push origin master
-</pre>
+{% endhighlight %}
 Change
-<pre>
+{% highlight shell %}
 git remote set-url origin git://new.url.here
-</pre>
+{% endhighlight %}
 Ganti Author
-<pre>
+{% highlight shell %}
 git clone --bare http://.git
 cd repo.git
 <code>
@@ -67,4 +67,4 @@ fi
 </code>
 git remote add origin https://username:password@gitdomain/.git
 git push --force --tags origin 'refs/heads/*'
-<pre>
+{% highlight shell %}

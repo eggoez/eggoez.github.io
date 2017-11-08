@@ -4,7 +4,7 @@ title:  "Bash eggoez6 (IPv6) "
 date:   2015-01-27 09:21:52 -0501
 categories: bash eggoez eggdrop
 ---
-<pre>
+{% highlight shell %}
 #!/bin/bash
 echo -e "\033[30;43m+--------------------------------------------------------------------+\033[0m"
 echo -e "\033[37;41;4mInstallasi eggdrop goez ipv6 otomatis berada pada $HOME/eggdrop6\033[0m"
@@ -77,4 +77,4 @@ echo "irc.allnetwork.org@ Indonesia IRC"
 echo "Terima kasih telah menggunakan eggoez.tar.gz"
 fi
 echo -e "\033[30;43m+--------------------(egg drop goez )----------------------+\033[0m"
-</pre>
+{% endhighlight %}

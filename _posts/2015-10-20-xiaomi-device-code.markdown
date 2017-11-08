@@ -6,7 +6,7 @@ categories: xiaomi
 ---
 List kode smarphone device code merek Xiaomi..
 Cek juga yang diajukan untuk masuk ke indonesia di ePostel <a href="https://sertifikasi.postel.go.id/index.php?0601">sertifikasi.postel.go.id/index.php?0601</a>
-
+<pre>
 Xiaomi Mi4 4G TD-LTE 16GB 2014216 (Xiaomi Leo)
 Xiaomi Mi4 4G TD-LTE 64GB 2014216 (Xiaomi Leo)
 Xiaomi Mi4 WCDMA 16GB 2014215 / Mi4W (Xiaomi Leo)
@@ -32,4 +32,4 @@ Xiaomi Mi3 TD 16GB 2013061
 Xiaomi Mi-Three / Mi-3 TD 64GB 2013061
 Xiaomi Hongmi / Redmi 2013022 (Xiaomi Red Rice)
 Xiaomi Phone 2A / Mi-Two A / MI-2A 16GB 2012121
-
+</pre>

@@ -7,16 +7,16 @@ categories: database
 Hanya untuk catatan
 
 Backup
-<pre>mysqldump -u{user} -p {database} > {database}.sql</pre>
+{% highlight shell %}mysqldump -u{user} -p {database} > {database}.sql{% endhighlight %}
 Restore
-<pre>mysql -u user -p databasename < backupname.sql</pre>
+{% highlight shell %}mysql -u user -p databasename < backupname.sql{% endhighlight %}
 
 With Compress je
 Backup
-<pre>mysqldump -u {user} -p {database} | gzip > {database}.sql.gz</pre>
+{% highlight shell %}mysqldump -u {user} -p {database} | gzip > {database}.sql.gz{% endhighlight %}
 Restore
-<pre>gzip -dc < {database}.sql.gz | mysql -u {user} -p {database}</pre>
+{% highlight shell %}gzip -dc < {database}.sql.gz | mysql -u {user} -p {database}{% endhighlight %}
 
 With CronJ
-<pre>mysqldump -u {user} -p {database} | gzip > `date -I`.database.sql.gz</pre>
-<pre>gzip -dc < `date -I`.{database}.sql.gz | mysql -u {user} -p {database}</pre>
+{% highlight shell %}mysqldump -u {user} -p {database} | gzip > `date -I`.database.sql.gz{% endhighlight %}
+{% highlight shell %}gzip -dc < `date -I`.{database}.sql.gz | mysql -u {user} -p {database}{% endhighlight %}

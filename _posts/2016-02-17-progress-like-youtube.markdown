@@ -8,7 +8,7 @@ added this js before your
 <code>
 </head>
 </code>
-<pre>
+{% highlight javascript %}
 <script>
 
 $(function() {
@@ -19,9 +19,9 @@ $(window).load(function() {
 $("#progress").width("101%").delay(300).fadeOut(400);
 });
 </script>
-</pre>
+{% endhighlight %}
 Now setting css like this gus
-<pre>
+{% highlight css %}
 #progress {position: fixed;
     z-index: 100;
     top: 0;
@@ -32,6 +32,6 @@ Now setting css like this gus
     border-radius: 1px;
     transition: width 500ms ease-out,opacity 400ms linear;
 }
-</pre>
+{% endhighlight %}
 css load at http://cssload.net/
 
