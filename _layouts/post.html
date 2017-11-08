@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-<ul class="breadcrumb"><li class="breadcrumbs active"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a rel="nofollow" href="{{ site.url }}" itemprop="url"><span itemprop="title">Beranda</span></a></span> / <span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="{{ site.url }}notes"><span itemprop="title">Notes</span></a></span> / {{ page.title}}</li></ul>
+    <div class="page-content">
+      <div class="wrapper">
+<ul class="breadcrumb"><li class="breadcrumbs active"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a rel="nofollow" href="{{ site.url }}" itemprop="url"><span itemprop="title">Beranda</span></a></span> / <span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="{{ site.url }}/notes"><span itemprop="title">Notes</span></a></span> / {{ page.title}}</li></ul>
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -12,7 +14,8 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
-
+</div>
+</div>
 </article>
   <h7 class="post-meta text-muted text-small"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Written by goez at </span></span><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %B %Y" }}.</h7>
   <hr />
