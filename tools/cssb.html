@@ -4,23 +4,62 @@ title: CSS Beautify
 permalink: /tools/cssb/
 ---
 <div class="content text-center">
-	<p><textarea class="form-control" style="min-height:350px" placeholder="Masukkan CSS min di sini.." id="raw" autofocus="autofocus" spellcheck="false" onChange='format()' onKeyDown='format()'></textarea></p>
-	<p><em>Spasi/Tab</em><input checked type="radio" name="indent" id="fourspaces" value="fourspaces" onChange='format()'> 4 spasi
-	<input type="radio" name="indent" id="twospaces" value="twospaces" onChange='format()'> 2 spasi
-	<input type="radio" name="indent" id="tab" value="tab" onChange='format()'> tab
-	</p>
-	<p>Posisi <em>{</em> 
-	<input checked type="radio" name="openbrace" id="openbrace-end-of-line" onChange='format()'> 1 baris
-	<input type="radio" name="openbrace" id="openbrace-separate-line" onChange='format()'> baris baru
-	</p>
-	<p><input checked type="checkbox" name="autosemicolon" id="autosemicolon" onChange='format()'> <em>;</em>(auto)</p>
-	
-	<p><textarea class="form-control" id="beautified" onclick="this.select()"></textarea></p>
-</div>
+<div class="row">
+						<div class="col-md-12">
+							<textarea id="raw" rows="22" autofocus="autofocus" spellcheck="false" onChange='format()' onKeyDown='format()'></textarea>
+						</div>
+							<div class="col-md-4">
+								<p>Distance css code:</p> 
+								<div class="radio">
+									<label>
+										<input checked="true" type="radio" name="indent" id="fourspaces" value="fourspaces" onChange='format()'>
+										4 space
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="indent" id="twospaces" value="twospaces" onChange='format()'>
+										2 space
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="indent" id="tab" value="tab" onChange='format()'>
+										Tab
+									</label>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<p>Opener:</p> 
+								<div class="radio">
+									<label>
+										<input checked="true" type="radio" name="openbrace" id="openbrace-end-of-line" onChange='format()'>
+										Above head
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="openbrace" id="openbrace-separate-line" onChange='format()'>
+										Under head
+									</label>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<p>Auto semicolon:</p> 
+								<div class="checkbox">
+									<label>
+										<input checked type="checkbox" name="autosemicolon" id="autosemicolon" onChange='format()'>
+										Checked 
+									</label>
+								</div>
+							</div>
+						<div class="col-md-12">
+							<textarea id="beautified" rows="22" readonly></textarea>
+						</div>
+					</div>
+					<script src="http://bachors.com/assets/cssbeautifier/1.js" charset="utf-8"></script>
+					<script src="http://bachors.com/assets/cssbeautifier/2.js" charset="utf-8"></script>
 					<link rel="stylesheet" type="text/css" href="http://bachors.com/assets/cssbeautifier/3.css"/>
 					<link rel="stylesheet" type="text/css" href="http://bachors.com/assets/cssbeautifier/4.css"/>
-					<script src="/asset/js/codemirror.js"></script>
-<script src="/asset/js/codemirror.css.js"></script>
-<script src="/asset/js/csbeau1.js"></script>
-<script src="/asset/js/csbeau2.js"></script>
-
+					<script src="http://bachors.com/assets/cssbeautifier/5.js" charset="utf-8"></script>
+					<script src="http://bachors.com/assets/cssbeautifier/6.js" charset="utf-8"></script>
