@@ -1,37 +1,9 @@
 	<!-- preload script @t-->
-	
-	{% if page.url == '/tools/cssc/' %}
-		<script src="/asset/js/ccs.js"></script>
-		<script src="/asset/js/cssc1.js"></script>
-	{% else %}
-		<!-- /tools/cssc/ gak onok -->
-	{% endif %}
-										
-	{% if page.url == '/tools/jsc/' %}
+	{% if page.url == '/tools/cssc/' %}<script src="/asset/js/ccs.js"></script>
+	<script src="/asset/js/cssc1.js"></script>{% else %}<!-- /tools/cssc/ gak onok -->{% endif %}{% if page.url == '/tools/jsc/' %}
 		<script src="/asset/js/jc1.js?min"></script>
 		<script src="/asset/js/jc2.js?min"></script>
 		<script src="/asset/js/jc3.js?min"></script>
 		<script src="/asset/js/jc4.js?min"></script>
-		<script src="/asset/js/jc5.js?min"></script>
-	{% else %}
-		<!-- /tools/jsc/ gak onok -->
-	{% endif %}
-										
-	{% if page.url == '/tools/meme/' %}
-		<script src="/asset/js/meme.js?"></script>
-	{% else %}
-		<!-- /tools/meme/ gak onok -->
-	{% endif %}
-	
-	{% if page.url == '/tools/base64/' %}
-	<script src="/asset/js/base64up.js?"></script>
-	{% else %}
-		<!-- /tools/base64/ gak onok -->
-	{% endif %}
-	
-	{% if page.url == '/tools/pprint/' %}
-	<script src="/asset/js/pptest.js?"></script>
-	{% else %}
-		<!-- /tools/pprint/ gak onok -->
-	{% endif %}
+		<script src="/asset/js/jc5.js?min"></script>{% else %}<!-- /tools/jsc/ gak onok -->{% endif %}{% if page.url == '/tools/meme/' %}<script src="/asset/js/meme.js?"></script>{% else %}<!-- /tools/meme/ gak onok -->{% endif %}{% if page.url == '/tools/base64/' %}<script src="/asset/js/base64up.js?"></script>{% else %}<!-- /tools/base64/ gak onok -->{% endif %}{% if page.url == '/tools/pprint/' %}<script src="/asset/js/pptest.js?"></script>{% else %}<!-- /tools/pprint/ gak onok -->{% endif %}
 	
