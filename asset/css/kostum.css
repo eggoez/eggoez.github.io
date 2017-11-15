@@ -7,7 +7,7 @@
 img{height:auto;max-width:100%}
 .image,.wp-caption img[class*="wp-image-"] {display:block}
 /** Syntax highlighting styles */
-.highlight  { background: #ffffff; }
+.highlight  { background: #ffffff; white-space: nowrap;  overflow: auto;}
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */
