@@ -2,7 +2,8 @@ User-agent: *
 Disallow: /*.jpg
 Disallow: /*.jpeg
 Disallow: /*.png
-Allow: *
+Disallow: /*.txt
+Allow: /
 
 Sitemap: https://goez.my.id/sitemap.xml
 Sitemap: https://goez.my.id/blog/sitemap.xml
