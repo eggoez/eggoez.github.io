@@ -15,4 +15,4 @@ Pay/Month
 ----------------------------------------------------------------------
 Provider	Due		Bill		Services	Status
 ----------------------------------------------------------------------
-Pangeran	24-08		lovumi		Dedicate		Still Pay
+Pangeran	24-08		lovumi		Dedicate	Still Pay
