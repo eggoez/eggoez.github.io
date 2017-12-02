@@ -5,7 +5,7 @@ Provider	Due		Bill		Services	Status
 HostUS1		30/11/2018	lovumi		VPS		Active
 HostUS2		29/12/2017	lovumi		VPS		Active
 RamNode		04/05/2018	ciutirc		VPS		Active
-Dapur1		21/12/2017	sherrisgo		Dom		Active
+Dapur1		21/12/2017	sherrisgo	Dom		Active
 Dapur2		27/07/2018	goez		Dom		Active
 Dapur3		14/12/2018	mf2		Dom		Active
 Liqu.id		09/01/2018	eggoez		Dom		Active
