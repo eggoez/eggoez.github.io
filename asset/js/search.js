@@ -13,7 +13,7 @@
 
       searchResults.innerHTML = appendString;
     } else {
-      searchResults.innerHTML = '<div class="alert alert-danger"><h3>Tidak ada kata yang cocok dengan keyword anda!</h3></div>';
+      searchResults.innerHTML = '<div class="alert alert-danger"><i class="fa fa-times"></i> Tidak ada kata yang cocok dengan keyword anda!</div>';
     }
   }
 
