@@ -6,7 +6,20 @@
 	<link rel="apple-touch-icon" href="https://eggoez.github.com/asset/imgs/ge-bullet-transp.png" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-	<meta name="google-site-verification" content="GoPhUgWsauuWffD9VABoK-zf6PqbPXgUBPhVV_SF0XM" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="{{ page.title }}" />
+	<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+	<meta name="twitter:image" content="{% if page.img %} {{ page.img }} {% else %} {{ site.img }} {% endif %}" />
+	<meta name="author" content="@{{ site.author }}">
+	<meta property="og:title" content="{{ page.title }}" />
+	<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+	<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+	<meta property="og:image" content="{% if page.img %} {{ page.img }} {% else %} {{ site.img }} {% endif %}" />
+	<meta property="og:site_name" content="{{ site.owner }}" />
+	<meta property="og:type" content="article" />
+	<meta property="fb:admins" content="{{ site.author }}" />
+	<meta property="article:published_time" content="{{ page.date }}" />
+	<meta property="article:modified_time" content="{{ page.date }}" />
 	<link rel="apple-touch-icon" href="/asset/imgs/ge-bullet-transp.png" />
 	<link rel="stylesheet" href="/asset/bootstrap/dist/css/bootstrap.min.css"> 
 	<link rel="stylesheet" href="/asset/css/kostum.css">
