@@ -2,20 +2,24 @@
 			<div class="container">
 				      <a class="navbar-brand faa-parent animated-hover" href="/">
 						{% include logo.html %}
+						<!-- original <img alt="goez" src="/github-cdn/asset/imgs/goez-eggo18nwr4.png"> -->
 						</a>
-					 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="">
-					 <span class="navbar-toggler-icon"></span>
+					 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
 					</button>
 				
-					<div class="collapse navbar-collapse" id="navbarColor01">
-						<ul class="mr-auto navbar-nav">
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
 							{% if page.url == '/' %}
-							<li class="nav-item active">
+							<li class="active">
 							 	{% else %}
-							 <li class="nav-item">
+							 <li>
 							 {% endif %}
 								<a href="/">Beranda</a></li>
-							<li class="nav-item"><a href="/blog">Blog's</a></li>
+							<li><a href="/blog">Blog's</a></li>
 						<!--	<li><a href="http://eggoez.com/flatpress">FlatPress</a></li> -->
 						{% if page.url == '/notes' %}<li class="active">{% else %}<li>{% endif %}<a href="/notes">Note's</a></li>
 						<!--	<li><a href="/memo">Memo's</a></li> -->
@@ -72,6 +76,5 @@
 							<a href="/about">About</a></li>
 									</ul>
 					</div>
-					</nav>
 			</div>
 		</div>
