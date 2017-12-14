@@ -15,5 +15,5 @@ cache: bundler
 
 matrix:
   include:
-    - script: bundle exec rake rubocops
+    - script: cibuild
 rvm: 2.4.0
