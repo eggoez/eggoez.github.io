@@ -14,54 +14,54 @@
 							 	{% else %}
 							 <li class="nav-item">
 							 {% endif %}
-								<a href="/">Beranda</a></li>
-							<li class="nav-item"><a href="/blog">Blog's</a></li>
-						<!--	<li><a href="http://eggoez.com/flatpress">FlatPress</a></li> -->
-						{% if page.url == '/notes' %}<li class="active">{% else %}<li>{% endif %}<a href="/notes">Note's</a></li>
-						<!--	<li><a href="/memo">Memo's</a></li> -->
+								<a class="nav-link" href="/">Beranda</a></li>
+							<li class="nav-item"><a class="nav-link" href="/blog">Blog's</a></li>
+						<!--	<li><a class="nav-link" href="http://eggoez.com/flatpress">FlatPress</a></li> -->
+						{% if page.url == '/notes' %}<li class="active">{% else %}<li>{% endif %}<a class="nav-link" href="/notes">Note's</a></li>
+						<!--	<li><a class="nav-link" href="/memo">Memo's</a></li> -->
 							{% if page.url == '/tools/' %}<li class="nav-item active dropdown">{% else %}<li class="nav-item dropdown">{% endif %}
 								<a data-toggle="dropdown" class="dropdown-toggle goez active" href="/tools">Tools<b class="caret"></b></a>
 									<ul class="dropdown-menu">
-										{% if page.url == '/tools/cssc/' %}<li class="active">{% else %}<li>{% endif %}<a href="/tools/cssc">CSS Compress</a></li>
-										{% if page.url == '/tools/jsc/' %}<li class="active">{% else %}<li>{% endif %}<a href="/tools/jsc">JS Compress</a></li>
-										{% if page.url == '/tools/pprint/' %}<li class="active">{% else %}<li>{% endif %}<a href="/tools/pprint/">Pertty Print</a></li>
-										{% if page.url == '/tools/meme/' %}<li class="active">{% else %}<li>{% endif %}<a href="/tools/meme">Meme Maker</a></li>
-										{% if page.url == '/tools/base64/' %}<li class="active">{% else %}<li>{% endif %}<a href="/tools/base64">Images b64</a></li>
-											<li class="dropdown dropdown-submenu"><a href="/teks/" class="dropdown-toggle" data-toggle="dropdown">Text Converter</a>
+										{% if page.url == '/tools/cssc/' %}<li class="active">{% else %}<li>{% endif %}<a class="nav-link" href="/tools/cssc">CSS Compress</a></li>
+										{% if page.url == '/tools/jsc/' %}<li class="active">{% else %}<li>{% endif %}<a class="nav-link" href="/tools/jsc">JS Compress</a></li>
+										{% if page.url == '/tools/pprint/' %}<li class="active">{% else %}<li>{% endif %}<a class="nav-link" href="/tools/pprint/">Pertty Print</a></li>
+										{% if page.url == '/tools/meme/' %}<li class="active">{% else %}<li>{% endif %}<a class="nav-link" href="/tools/meme">Meme Maker</a></li>
+										{% if page.url == '/tools/base64/' %}<li class="active">{% else %}<li>{% endif %}<a class="nav-link" href="/tools/base64">Images b64</a></li>
+											<li class="dropdown dropdown-submenu"><a class="nav-link" href="/teks/" class="dropdown-toggle" data-toggle="dropdown">Text Converter</a>
 												<ul class="dropdown-menu">
-													<li><a href="/tools/teks/attl">Attl Text</a></li>
-													<li><a href="/tools/teks/bbold">BigBold Text</a></li>
-													<li><a href="/tools/teks/bullet">Bullet Text</a></li>
-													<li><a href="/tools/teks/funt">Funt Text</a></li>
-													<li><a href="/tools/teks/funy">Funy Text</a></li>
-													<li><a href="/tools/teks/glif">Glift Text</a></li>
-													<li><a href="/tools/teks/mirror">Mirror Text</a></li>
-													<li><a href="/tools/teks/unik">Unik Text</a></li>
-													<li><a href="/tools/teks/swirl">Swirl Text</a></li>
-													<li><a href="/tools/teks/sym">Sym Text</a></li>
+													<li><a class="nav-link" href="/tools/teks/attl">Attl Text</a></li>
+													<li><a class="nav-link" href="/tools/teks/bbold">BigBold Text</a></li>
+													<li><a class="nav-link" href="/tools/teks/bullet">Bullet Text</a></li>
+													<li><a class="nav-link" href="/tools/teks/funt">Funt Text</a></li>
+													<li><a class="nav-link" href="/tools/teks/funy">Funy Text</a></li>
+													<li><a class="nav-link" href="/tools/teks/glif">Glift Text</a></li>
+													<li><a class="nav-link" href="/tools/teks/mirror">Mirror Text</a></li>
+													<li><a class="nav-link" href="/tools/teks/unik">Unik Text</a></li>
+													<li><a class="nav-link" href="/tools/teks/swirl">Swirl Text</a></li>
+													<li><a class="nav-link" href="/tools/teks/sym">Sym Text</a></li>
 												</ul>
 											</li>
-											{% if page.url == '/tools/jowo/' %}<li class="active">{% else %}<li>{% endif %}<a href="/tools/jowo">Kalender Jowo</a></li>
+											{% if page.url == '/tools/jowo/' %}<li class="active">{% else %}<li>{% endif %}<a class="nav-link" href="/tools/jowo">Kalender Jowo</a></li>
 									</ul>
 							<li class="dropdown">
 								<a data-toggle="dropdown" class="dropdown-toggle" href="/project">Project<b class="caret"></b></a>
 									<ul class="dropdown-menu">
-										<li><a href="http://eggoez.com/flatpress">FlatPress</a></li>
-										<li><a href="http://eg-goez.github.io">Bot eggoez</a></li>
-										<li><a href="https://github.com/eggoez/SimpleMemo">Simple Memo</a></li>
-									<!--	<li><a href="/FreeBNC">FreeBNC</a></li> -->
+										<li><a class="nav-link" href="http://eggoez.com/flatpress">FlatPress</a></li>
+										<li><a class="nav-link" href="http://eg-goez.github.io">Bot eggoez</a></li>
+										<li><a class="nav-link" href="https://github.com/eggoez/SimpleMemo">Simple Memo</a></li>
+									<!--	<li><a class="nav-link" href="/FreeBNC">FreeBNC</a></li> -->
 									</ul>
 							</li>
 							<li class="dropdown">
 								<a data-toggle="dropdown" class="dropdown-toggle" href="/project">Download<b class="caret"></b></a>
 									<ul class="dropdown-menu">
-										<li><a href="/download/flatpress">FlatPress</a></li>
-										<li><a href="/download/eggdrop">eggdrop goez</a></li>
-										<li><a href="https://github.com/eggoez/SimpleMemo">Simple Memo</a></li>
-										<li><a href="/download/ciutirc">ciutIRC</a></li>
-										<li><a href="/download/mirc-scripts">mIRC Scripts</a></li>
-										<li><a href="https://github.com/eggoez/sInfo">sInfo Tweak</a></li>
-										<li><a href="/download/tcl">TCL</a></li>
+										<li><a class="nav-link" href="/download/flatpress">FlatPress</a></li>
+										<li><a class="nav-link" href="/download/eggdrop">eggdrop goez</a></li>
+										<li><a class="nav-link" href="https://github.com/eggoez/SimpleMemo">Simple Memo</a></li>
+										<li><a class="nav-link" href="/download/ciutirc">ciutIRC</a></li>
+										<li><a class="nav-link" href="/download/mirc-scripts">mIRC Scripts</a></li>
+										<li><a class="nav-link" href="https://github.com/eggoez/sInfo">sInfo Tweak</a></li>
+										<li><a class="nav-link" href="/download/tcl">TCL</a></li>
 									</ul>
 							</li> 
 							 {% if page.url == '/about/' %}
@@ -69,7 +69,7 @@
 							 	{% else %}
 							 <li>
 							 {% endif %}
-							<a href="/about">About</a></li>
+							<a class="nav-link" href="/about">About</a></li>
 									</ul>
 					</div>
 			</div>
