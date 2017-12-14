@@ -10,12 +10,12 @@
 					<div class="collapse navbar-collapse" id="navbarResponsive">
 						<ul class="navbar-nav">
 							{% if page.url == '/' %}
-							<li class="active">
+							<li class="nav-item active">
 							 	{% else %}
-							 <li>
+							 <li class="nav-item">
 							 {% endif %}
 								<a href="/">Beranda</a></li>
-							<li><a href="/blog">Blog's</a></li>
+							<li class="nav-item"><a href="/blog">Blog's</a></li>
 						<!--	<li><a href="http://eggoez.com/flatpress">FlatPress</a></li> -->
 						{% if page.url == '/notes' %}<li class="active">{% else %}<li>{% endif %}<a href="/notes">Note's</a></li>
 						<!--	<li><a href="/memo">Memo's</a></li> -->
