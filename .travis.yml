@@ -1,21 +1,19 @@
 language: ruby
 rvm:
-- 2.3.3
+  - 2.3.4
+  - 2.4.0
 
-before_script:
- - chmod +x ./script/cibuild # or do this locally and commit
-
-# Assume bundler is being used, therefore
-# the `install` step will run `bundle install` by default.
-script: ./script/cibuild
-
-# branch whitelist, only for GitHub Pages
-branches:
-  only:
-  - master     # test the gh-pages branch
+git:
+  depth: 10
 
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
-sudo: false # route your build to the container-based infrastructure for a faster build
+sudo: false
+cache: bundler
+
+matrix:
+  include:
+    - script: bundle exec rake rubocops
+rvm: 2.4.0
