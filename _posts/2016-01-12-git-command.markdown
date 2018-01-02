@@ -43,6 +43,14 @@ Change
 {% highlight shell %}
 git remote set-url origin git://new.url.here
 {% endhighlight %}
+Update/Sync forked repo dari original repo
+{% highlight shell %}
+git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+git remote -v
+git fetch upstream
+git checkout master
+git merge upstream/master
+{% highlight shell %}
 Ganti Author
 {% highlight shell %}
 git clone --bare http://.git
