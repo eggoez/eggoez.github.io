@@ -50,7 +50,7 @@ git remote -v
 git fetch upstream
 git checkout master
 git merge upstream/master
-{% highlight shell %}
+{% endhighlight %}
 Ganti Author
 {% highlight shell %}
 git clone --bare http://.git
