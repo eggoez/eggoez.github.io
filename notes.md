@@ -10,7 +10,5 @@ title: Notes
   <li class="list-group-item">
     <span class="badge">{{ post.date | date: "%-d %b %y" }}</span>
     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-  </li>
-</ul>
+  </li></ul>
 {% endfor %}
-
