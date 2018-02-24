@@ -8,7 +8,7 @@ RamNode		04/05/2018	ciutirc		VPS		Active
 Dapur1		21/12/2018	sherrisgo	Dom		Active
 Dapur2		27/07/2018	goez		Dom		Active
 Dapur3		14/12/2018	mf2		Dom		Active
-Liqu.id		09/01/2018	eggoez		Dom		Active
+Liqu.id		09/01/2018	eggoez		Dom		Expired
 ______________________________________________________________________
 
 Pay/Month
