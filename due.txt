@@ -2,7 +2,7 @@ Pay/Years
 ----------------------------------------------------------------------
 Provider	Due		Bill		Services	Status
 ----------------------------------------------------------------------
-HostUS1		30/11/2018	lovumi		VPS		Active
+HostUS1		30/11/2019	lovumi		VPS		Active
 HostUS2		29/12/2018	lovumi		VPS		Active
 RamNode		04/05/2018	ciutirc		VPS		Canceled
 Dapur1		21/12/2018	sherrisgo	Dom		Active
