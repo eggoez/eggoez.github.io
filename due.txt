@@ -7,7 +7,7 @@ HostUS2		29/12/2018	lovumi		VPS		Active
 RamNode		04/05/2018	ciutirc		VPS		Canceled
 Dapur1		21/12/2018	sherrisgo	Dom		Active
 Dapur2		27/07/2020	goez		Dom		Active
-Dapur3		14/12/2018	mf2		Dom		Active
+Dapur3		14/12/2020	mf2		Dom		Active
 Liqu.id		09/01/2018	eggoez		Dom		Expired
 ______________________________________________________________________
 
