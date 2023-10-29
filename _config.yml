@@ -15,7 +15,7 @@ description: > # this means to ignore newlines until "baseurl:"
   That’s the point. Life is NOT always about skills. Sometimes t the person who wins is the person who believe he/she can win!
 baseurl: "" # the subpath of your site, e.g. /blog
 note: "/notes"
-url: "https://goez.my.id" # the base hostname & protocol for your site
+url: "https://eggoez.github.io" # the base hostname & protocol for your site
 permalink: /:categories/:title.html
 twitter_username: eggoez
 github_username:  eggoez
